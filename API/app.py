@@ -14,3 +14,8 @@ def get_familia():
 def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
     return rows
+
+@app.get("/CursosPlatzi")
+def get_superheroes():
+    rows = ["linux", "python", "git y github", "ingles A1", "terminal comandos", "Introduccion a la IA", "excel", "chapGPT"]
+    return rows
